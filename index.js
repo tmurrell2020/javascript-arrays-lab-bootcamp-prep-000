@@ -10,12 +10,12 @@ function destructivelyPrependKitten() {
   return kittens;
 }
 
-function destructivelyRemoveLastKitten() {
-  kittens.
-  return kittens;
-}
+// function destructivelyRemoveLastKitten() {
+//   kittens.
+//   return kittens;
+// }
 
 function destructivelyRemoveFirstKitten() {
-  kittens.shift()
+  kittens.shift("Milo");
   return kittens;
 }

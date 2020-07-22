@@ -25,9 +25,10 @@ function appendKitten(newKittens) {
   return newKittens;
 }
 
-// function prependKitten("Arnold") {
-//
-// }
+function prependKitten(newKittens) {
+  newKittens = ["Arnold", ...kittens];
+  return newKittens;
+}
 //
 // function removeLastKitten() {
 //

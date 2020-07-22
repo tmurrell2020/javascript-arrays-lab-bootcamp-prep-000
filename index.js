@@ -29,10 +29,10 @@ function prependKitten(newKittens) {
   newKittens = ["Arnold", ...kittens];
   return newKittens;
 }
-//
-// function removeLastKitten() {
-//
-// }
+
+function removeLastKitten(kittens) {
+  return kittens.slice(0, kittens.length - 1)
+}
 //
 // function removeFirstKitten() {
 //
